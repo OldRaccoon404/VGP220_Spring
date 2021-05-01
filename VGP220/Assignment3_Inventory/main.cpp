@@ -74,23 +74,5 @@ int main(int argc, char* argv[])
 	inventory_2.AddItem(rope);
 
 	//TODO: Other tests that you want to make
-	
-	inventory_2.AddItem(rope);
-	inventory_2.AddItem(armor);
-	inventory_2.AddItem(rope2);
-	inventory_2.AddItem(rope2);
-	inventory_2.AddItem(rope2);
-
-	inventory_2.ShowInventory();
-
-	//Inventory inventory_test(inventory_2);
-	//inventory_test.ShowInventory();
-
-
-	Inventory inventory_test2(std::move(inventory_2));
-	inventory_test2.ShowInventory();
-	
-	std::cout<<"moved: Should be empty\n";
-	inventory_2.ShowInventory();
 
 }
