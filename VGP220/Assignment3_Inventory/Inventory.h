@@ -357,7 +357,7 @@ private:
 		{
 			mMaxSlots = 0;
 			mSlotsOccupied = 0;
-		//	delete[]other.mInventory;
+			delete[]mInventory;
 			mInventory = nullptr;
 		}
 
