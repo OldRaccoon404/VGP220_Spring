@@ -72,6 +72,7 @@ int main(int argc, char* argv[])
 	//Testing special case for expansion
 	inventory_2.AddItem(curse);
 	inventory_2.AddItem(rope);
+	inventory_2.ShowInventory();
 
 	//TODO: Other tests that you want to make
 
