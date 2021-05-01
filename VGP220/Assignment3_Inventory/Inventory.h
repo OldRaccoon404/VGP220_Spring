@@ -126,7 +126,7 @@ public:
 
 				int remainder = 0;
 				int index = -1;
-				if (isFullForItem(&newItem) == false) // Znachit mojno rabototat
+				if (isFullForItem(&newItem) == false) 
 				{
 					if (SearchItemByNameLessThan50(newItem.name) == -1)
 					{
@@ -357,7 +357,7 @@ private:
 		{
 			mMaxSlots = 0;
 			mSlotsOccupied = 0;
-		//	delete[]other.mInventory;
+			delete[]mInventory;
 			mInventory = nullptr;
 		}
 
