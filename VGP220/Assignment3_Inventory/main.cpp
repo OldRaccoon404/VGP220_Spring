@@ -76,7 +76,20 @@ int main(int argc, char* argv[])
 	//Testing special case for expansion
 	inventory_2.AddItem(curse);
 	inventory_2.AddItem(rope);
+	inventory_2.ShowInventory();
 
 	//TODO: Other tests that you want to make
+
+	inventory_2.AddItem(rope);
+	inventory_2.AddItem(armor);
+	inventory_2.AddItem(rope2);
+	inventory_2.AddItem(rope2);
+	inventory_2.AddItem(rope2);
+	inventory_2.ShowInventory();
+
+	Inventory inventory_test(std::move(inventory_2));
+	inventory_test.ShowInventory();
+	//std::cout << "Supposed to be empty: \n";
+	//inventory_2.ShowInventory();
 
 }
