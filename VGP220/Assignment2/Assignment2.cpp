@@ -3,7 +3,7 @@
 
 //Student name: Artem Sviatenko
 //Student ID: 204-2594
-
+//Grade: 95/100 + 5 bonus
 
 //TODO:  
 //Question 1:
@@ -51,6 +51,7 @@ int pow_b(int m, int n) {
 }
 //Answer for pow_b: O(logn)
 
+//ERROR: -5. The max that you have here is one nested for loop. So in this case, the best answer is O(n^2).
 //TODO:
 //Question 3:
 //The method bellow finds and removes duplicated numbers in the parameter array. 

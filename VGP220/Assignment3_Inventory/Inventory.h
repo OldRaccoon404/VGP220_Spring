@@ -6,6 +6,7 @@
 class Inventory
 {
 public:
+	//COMMENT: Use initialization listfor constructors, mMaxSlots and mSlotsOccupied.
 	Inventory()
 	{
 		//TODO: Implement a default constructor for the Inventory class where the max number of slots
@@ -16,6 +17,7 @@ public:
 		mSlotsOccupied = 0;
 		//std::cout << "Default constructor called\n";
 	}
+	//COMMENT: mSlotsOccupied in an initialization list like mMaxSlots.
 	Inventory(uint32_t capacity)
 		:mMaxSlots(capacity)
 	{
@@ -26,6 +28,7 @@ public:
 		//std::cout << "Custom constructor called\n";
 
 	}
+
 	Inventory(const Inventory& other)
 	{
 		//TODO: Implement a copy constructor for this class. Avoid shallow copy.

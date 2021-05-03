@@ -1,6 +1,10 @@
 #include <iostream>
 #include "Inventory.h"
 
+//Grade: 100/100
+//COMMENT: Amazing work. Try to remove unecessary comments and clean up a little bit more 
+//your code. Great job!
+
 int main(int argc, char* argv[])
 {
 	Item hps{ "Healing Potion", 12, ItemType::Potion };
@@ -31,16 +35,16 @@ int main(int argc, char* argv[])
 
 
 
-	/*inventory_2.AddItem(xtrm);
-	inventory_2.AddItem(sword);*/
+	//inventory_2.AddItem(xtrm);
+	//inventory_2.AddItem(sword);
 
-	//inventory_2.AddItem(rope);
-	//inventory_2.AddItem(armor);
-	//inventory_2.AddItem(rope2);
-	//inventory_2.AddItem(rope2);
-	//inventory_2.AddItem(rope2);
+	inventory_2.AddItem(rope);
+	inventory_2.AddItem(armor);
+	inventory_2.AddItem(rope2);
+	inventory_2.AddItem(rope2);
+	inventory_2.AddItem(rope2);
 
-	//inventory_2.AddItem(curse);
+	inventory_2.AddItem(curse);
 
 
 	inventory_2.ShowInventory();
