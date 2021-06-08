@@ -19,7 +19,9 @@ int main(int argc, char* argv[])
 	priorityQueue.Enqueue({ 100, "Michael Wastren Jr." });
 	priorityQueue.Enqueue({ 95, "Leonard Millie" });
 	priorityQueue.Enqueue({ 63, "Caroline Wilson" });
+	priorityQueue.Enqueue({ 123, "Artem " });
 	priorityQueue.Enqueue({ 84, "Chloe Marshall" });
+
 
 	PriorityQueue<std::string>::Data first5[5] =
 	{
